@@ -15297,13 +15297,13 @@ $("#refferal").submit(function(t) {
 
 $(document).ready(function() {
     $(".submitReff").click(function() {})
-}), $(document).ready(function() {
+}),/* <!--$(document).ready(function() {
     $("input.datepick").datepicker({
         minDate: 0
     }).on("change", function() {
         $("input.datepick").valid() && $("input.datepick").removeClass("invalid").addClass("success")
     }), $(".freshers").hide(), $(".exp").hide()
-}), $(document).ready(function() {
+}),-->*/ $(document).ready(function() {
     for (var e = "<option value=''>Select Year of passout</option>", t = 2010; 2022 >= t; t++) e = e + "<option >" + t + "</option>";
     $("#yearOfPassout").empty(), $("#yearOfPassout").append(e)
 }), $("select#empType").change(function() {
